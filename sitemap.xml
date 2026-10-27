@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://mirazanedizioni.github.io/index.html</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://mirazanedizioni.github.io/phone/index.html"/>
@@ -12,34 +12,34 @@
   </url>
   <url>
     <loc>http://mirazanedizioni.github.io/autori.html</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://mirazanedizioni.github.io/phone/autori.html"/>
     <image:image>
+      <image:loc>http://mirazanedizioni.github.io/images/fotoblub.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mirazanedizioni.github.io/images/fotoenio.jpg</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://mirazanedizioni.github.io/images/logomired400.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mirazanedizioni.github.io/images/blub3.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mirazanedizioni.github.io/images/eniofoto.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://mirazanedizioni.github.io/titoli.html</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://mirazanedizioni.github.io/phone/titoli.html"/>
-    <image:image>
-      <image:loc>http://mirazanedizioni.github.io/images/logomired400.png</image:loc>
-    </image:image>
     <image:image>
       <image:loc>http://mirazanedizioni.github.io/images/ia-primatrilo-mir.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mirazanedizioni.github.io/images/ia-secondatrilo-mir.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mirazanedizioni.github.io/images/logomired400.png</image:loc>
     </image:image>
   </url>
 </urlset>

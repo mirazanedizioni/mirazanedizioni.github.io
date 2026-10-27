@@ -11,7 +11,7 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "require.js", "titoli.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "titoli.css"], "outOfDate":[]};
 </script>
   
   <link rel="canonical" href="http://mirazanedizioni.github.io/titoli.html"/>
@@ -19,17 +19,37 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_mirphon.css?crc=275109543"/>
-  <link rel="stylesheet" type="text/css" href="css/titoli.css?crc=99721276" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/titoli.css?crc=274572858" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="../scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
-   </head>
- <body>
+    <!--custom head HTML-->
+  <script>
+L'impero d'Acciaio
+Claudio Bolle
+Bundle
+I due Flussi del Tempo
+Il Fiume si divide
+L'Accademia degli Dèi
+Il segreto di Vesta
+Gli artigli dell'Aquila
+Il Tempio sull'Oceano
+Il segno degli Ordos
+Impero Romano
+Imperatore Tiberio
+ucronia
+utopia
+avventura
+storico
+fantastorico
+</script>
+ </head>
+ <body class="museBGSize">
 
   <div class="clearfix borderbox" id="page"><!-- column -->
    <div class="clip_frame colelem" id="u588"><!-- image -->
-    <img class="block" id="u588_img" src="../images/logomired400.png?crc=4246472454" alt="" data-heightwidthratio="0.3296398891966759" data-image-width="361" data-image-height="119"/>
+    <img class="block" id="u588_img" src="../images/logomired360.png?crc=4228040356" alt="" data-heightwidthratio="0.33055555555555555" data-image-width="360" data-image-height="119"/>
    </div>
    <nav class="MenuBar clearfix colelem" id="menuu675"><!-- horizontal box -->
     <div class="MenuItemContainer clearfix grpelem" id="u676"><!-- vertical box -->
@@ -44,41 +64,45 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    </nav>
    <div class="clearfix colelem" id="u782"><!-- column -->
     <div class="clip_frame colelem" id="u783"><!-- image -->
-     <img class="block" id="u783_img" src="../images/ia-primatrilo-mir.jpg?crc=3810744086" alt="" data-heightwidthratio="1.5" data-image-width="350" data-image-height="525"/>
+     <img class="block" id="u783_img" src="../images/ia-primatrilo-mir.jpg?crc=105233067" alt="" data-heightwidthratio="1.5" data-image-width="350" data-image-height="525"/>
     </div>
-    <div class="clearfix colelem" id="u785-23"><!-- content -->
-     <p id="u785-2">Questa Prima Trilogia de</p>
-     <p id="u785-5"><span id="u785-3">L'impero d'Acciaio</span></p>
-     <p id="u785-7">raccoglie i primi tre volumi:</p>
-     <p id="u785-9">• I due flussi del Tempo</p>
-     <p id="u785-11">• L’Accademia degli Dèi</p>
-     <p id="u785-13">• Il segreto di Vesta</p>
-     <p id="u785-14">&nbsp;</p>
-     <p id="u785-17">pubblicati da Lettere Animate Editore tra la metà del 2016 e l'inizio del 2018, o<span id="u785-16">ggi disponibili su Amazon in digitale, brossura e cartonato.</span></p>
-     <p id="u785-18">&nbsp;</p>
-     <p id="u785-19">&nbsp;</p>
-     <p id="u785-21">L'edizione cartacea sommerebbe ben 1240 pagine in formato 6&quot; x 9 &quot; (circa 15,2 x 21,9 cm), con testo alquanto fitto.</p>
+    <div class="clearfix colelem" id="u860-30"><!-- content -->
+     <p id="u860-4">Questa Prima Trilogia de <span id="u860-2">L'impero d'Acciaio</span> raccoglie i primi tre volumi, nelle edizioni rivedute nel 2026:</p>
+     <p id="u860-6">• Libro 1°: I due flussi del Tempo</p>
+     <p id="u860-8">• Libro 2°: L’Accademia degli Dèi</p>
+     <p id="u860-10">• Libro 3°: Il segreto di Vesta</p>
+     <p id="u860-11">&nbsp;</p>
+     <p id="u860-13">Pubblicati da Lettere Animate Editore tra la metà del 2016 e l'inizio del 2018, oggi disponibili su Amazon in digitale, brossura e cartonato. (il Libro 1° s'intitolava in origine &quot;Il Fiume si divide&quot;)</p>
+     <p id="u860-14">&nbsp;</p>
+     <p id="u860-18">L'edizione cartacea sommerebbe ben <span id="u860-16">1240 pagine</span> in formato 6&quot; x 9 &quot; (circa 15,2 x 21,9 cm), con testo alquanto fitto.</p>
+     <p id="u860-19">&nbsp;</p>
+     <p id="u860-22"><span id="u860-20">La storia</span>:</p>
+     <p id="u860-24">quattro nostri contemporanei arrivano fortuitamente all’epoca di Tiberio e, resisi conto di essere condannati a rimanere, decidono di tentare di cambiare la storia.</p>
+     <p id="u860-26">Riescono ad entrare in contatto con l’Imperatore e a farsi ascoltare. Superando vari ostacoli, nel volgere di pochi mesi riusciranno a gettare le basi per la loro utopia, inizialmente guidati da Mara, un’insegnante di latino e greco, poi dalla vulcanica e aggressiva Laura, una ingegnera chimico. I loro due mariti lavorano più defilati, ma sono altrettanto importanti, come i tre militari alleati raccolti nel primo salto temporale di pochi secondi.</p>
+     <p id="u860-28">Il tutto in un ambiente storico semplificato, ma fedele alla realtà.</p>
     </div>
    </div>
    <div class="clearfix colelem" id="u795"><!-- column -->
     <div class="clip_frame colelem" id="u798"><!-- image -->
-     <img class="block" id="u798_img" src="../images/ia-secondatrilo-mir.jpg?crc=3759760464" alt="" data-heightwidthratio="1.5" data-image-width="350" data-image-height="525"/>
+     <img class="block" id="u798_img" src="../images/ia-secondatrilo-mir.jpg?crc=4152363351" alt="" data-heightwidthratio="1.5" data-image-width="350" data-image-height="525"/>
     </div>
-    <div class="clearfix colelem" id="u800-23"><!-- content -->
-     <p id="u800-2">Questa Seconda Trilogia de</p>
-     <p id="u800-5"><span id="u800-3">L'impero d'Acciaio</span></p>
-     <p id="u800-7">raccoglie gli ultimi tre volumi:</p>
-     <p id="u800-9">• Gli artigli dell'Aquila</p>
-     <p id="u800-11">• Il Tempio sull'Oceano</p>
-     <p id="u800-13">• Il segno degli Ordos</p>
-     <p id="u800-14">&nbsp;</p>
-     <p id="u800-17">pubblicati il 2019 e il 2020, o<span id="u800-16">ggi disponibili su Amazon in digitale, brossura e cartonato.</span></p>
-     <p id="u800-18">&nbsp;</p>
-     <p id="u800-19">&nbsp;</p>
-     <p id="u800-21">L'edizione cartacea sommerebbe ben 1370 pagine in formato 6&quot; x 9 &quot; (circa 15,2 x 21,9 cm), con testo alquanto fitto.</p>
+    <div class="clearfix colelem" id="u863-30"><!-- content -->
+     <p id="u863-4">Questa Seconda Trilogia de <span id="u863-2">L'impero d'Acciaio</span> raccoglie gli ultimi tre volumi:</p>
+     <p id="u863-6">• Gli artigli dell'Aquila</p>
+     <p id="u863-8">• Il Tempio sull'Oceano</p>
+     <p id="u863-10">• Il segno degli Ordos</p>
+     <p id="u863-11">&nbsp;</p>
+     <p id="u863-13">pubblicati il 2019 e il 2020, oggi disponibili su Amazon in digitale, brossura e cartonato.</p>
+     <p id="u863-14">&nbsp;</p>
+     <p id="u863-16">L'edizione cartacea sommerebbe ben 1370 pagine in formato 6&quot; x 9 &quot; (circa 15,2 x 21,9 cm), con testo alquanto fitto.</p>
+     <p id="u863-17">&nbsp;</p>
+     <p id="u863-19">Questa Trilogia raccoglie I testi delle nuove edizioni.</p>
+     <p id="u863-22"><span id="u863-20">La storia</span>:</p>
+     <p id="u863-24">Le vicende iniziano pochi giorni dopo la fine della Prima Trilogia e si dipanano per oltre cinquant’anni dall’arrivo dei protagonisti, che a quel punto avranno capito se saranno riusciti a realizzare il loro sogno.</p>
+     <p id="u863-28">Questa Trilogia è in pratica un’ucronia, ed è molto diversa dalla Prima, che per lo più si svolge tra i palazzi romani: qui assisteremo a battaglie campali, ad assedi, a intrighi e sottigliezze diplomatiche, con qualche intermezzo filosofico; prenderà corpo anche la vena fantascientifica, in modo alquanto insolito, ma fondamentale ai fini della storia e del suo prosieguo nella successiva serie “<span id="u863-26">Cronache dell’Impero</span>”, tutt’ora in evoluzione.</p>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="1886" data-content-above-spacer="1886" data-content-below-spacer="71" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="verticalspacer" data-offset-top="2541" data-content-above-spacer="2541" data-content-below-spacer="71" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -91,7 +115,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.musepolyfill.bgsize","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */

@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mirazanedizioni.github.io" resolutions="1x" timestamp="1793124834742">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mirazanedizioni.github.io" resolutions="1x" timestamp="1793142917565">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_mirland.css" crc="4023238765" ref="titoli:autori:index"/>
-    <file name="titoli.css" crc="4013464994" ref="titoli"/>
+    <file name="master_mirland.css" crc="4023238765" ref="autori:index:titoli"/>
     <file name="autori.css" crc="3763773717" ref="autori"/>
     <file name="index.css" crc="4097893856" ref="index"/>
+    <file name="titoli.css" crc="163141781" ref="titoli"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>autori:phone>titoli:index:autori:titoli"/>
@@ -12,54 +12,62 @@
     <file name="whatinput.js" crc="86476730" ref="phone>index:phone>autori:phone>titoli:index:autori:titoli"/>
     <file name="museconfig.js" crc="4286661555" ref="phone>index:phone>autori:phone>titoli:index:autori:titoli"/>
     <file name="jquery.musemenu.js" crc="510910590" ref="phone>index:phone>autori:phone>titoli:index:autori:titoli"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:phone>autori:phone>titoli:index:autori:titoli"/>
     <file name="jquery.watch.js" crc="51536988" ref="phone>index:phone>autori:phone>titoli:index:autori:titoli"/>
     <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>autori:phone>titoli:index:autori:titoli"/>
     <file name="require.js" crc="7928878" ref="phone>index:phone>autori:phone>titoli:index:autori:titoli"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:autori:titoli"/>
   </folder>
   <folder name="images">
-    <file name="logomired400.png" crc="4246472454" seo="true" ref="phone>index:phone>autori:phone>titoli:index:autori:titoli">
+    <file name="logomired360.png" crc="4228040356" seo="true" ref="phone>index:phone>autori:phone>titoli">
       <caption webpage="index" alt=""/>
+      <caption webpage="titoli" alt=""/>
+      <caption webpage="autori" alt=""/>
+    </file>
+    <file name="biblioalex1trnar.png" crc="330034724" ref="phone>index:phone>autori:phone>titoli">
       <caption webpage="index" alt=""/>
-      <caption webpage="autori" alt=""/>
-      <caption webpage="autori" alt=""/>
       <caption webpage="titoli" alt=""/>
-      <caption webpage="titoli" alt=""/>
+      <caption webpage="autori" alt=""/>
     </file>
-    <file name="blub3.jpg" crc="428274432" seo="true" ref="phone>autori:autori">
+    <file name="fotoblub.jpg" crc="4182456693" seo="true" ref="phone>autori:autori">
       <caption webpage="autori" alt=""/>
       <caption webpage="autori" alt=""/>
     </file>
-    <file name="eniofoto.jpg" crc="392416287" seo="true" ref="phone>autori:autori">
+    <file name="fotoenio.jpg" crc="3811474667" seo="true" ref="phone>autori:autori">
       <caption webpage="autori" alt=""/>
       <caption webpage="autori" alt=""/>
     </file>
-    <file name="ia-primatrilo-mir.jpg" crc="3810744086" seo="true" ref="phone>titoli:titoli">
+    <file name="ia-primatrilo-mir.jpg" crc="105233067" seo="true" ref="phone>titoli:titoli">
       <caption webpage="titoli" alt=""/>
       <caption webpage="titoli" alt=""/>
     </file>
-    <file name="ia-secondatrilo-mir.jpg" crc="3759760464" seo="true" ref="phone>titoli:titoli">
+    <file name="ia-secondatrilo-mir.jpg" crc="4152363351" seo="true" ref="phone>titoli:titoli">
       <caption webpage="titoli" alt=""/>
       <caption webpage="titoli" alt=""/>
+    </file>
+    <file name="mirland-favicon.ico" crc="61756407" ref="index"/>
+    <file name="logomired400.png" crc="4246472454" seo="true" ref="index:autori:titoli">
+      <caption webpage="index" alt=""/>
+      <caption webpage="titoli" alt=""/>
+      <caption webpage="autori" alt=""/>
     </file>
     <file name="biblioalex1tr.png" crc="4433726" ref="index:autori:titoli">
       <caption webpage="index" alt=""/>
-      <caption webpage="autori" alt=""/>
       <caption webpage="titoli" alt=""/>
+      <caption webpage="autori" alt=""/>
     </file>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_mirphon.css" crc="275109543" ref="phone>autori:phone>index:phone>titoli"/>
-      <file name="autori.css" crc="4149000319" ref="phone>autori"/>
-      <file name="index.css" crc="129993459" ref="phone>index"/>
-      <file name="titoli.css" crc="99721276" ref="phone>titoli"/>
+      <file name="master_mirphon.css" crc="275109543" ref="phone>titoli:phone>index:phone>autori"/>
+      <file name="titoli.css" crc="274572858" ref="phone>titoli"/>
+      <file name="index.css" crc="4080767533" ref="phone>index"/>
+      <file name="autori.css" crc="398268222" ref="phone>autori"/>
     </folder>
-    <file name="index.html" crc="35845" seo="true" mt="1793124249610" redirect="true"/>
-    <file name="autori.html" crc="4212086284" seo="true" mt="1793124249610" redirect="true"/>
-    <file name="titoli.html" crc="365284775" seo="true" mt="1793124603624" redirect="true"/>
+    <file name="index.html" crc="85693400" seo="true" mt="1793140609373" redirect="true"/>
+    <file name="autori.html" crc="4057574136" seo="true" mt="1793140609373" redirect="true"/>
+    <file name="titoli.html" crc="2867093" seo="true" mt="1793140609373" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4142819914" seo="true" mt="1793124249607" redirect="true"/>
-  <file name="autori.html" crc="4086946680" seo="true" mt="1793124249607" redirect="true"/>
-  <file name="titoli.html" crc="4263697399" seo="true" mt="1793124249607" redirect="true"/>
+  <file name="index.html" crc="4113436029" seo="true" mt="1793142897416" redirect="true"/>
+  <file name="autori.html" crc="4135876396" seo="true" mt="1793142897416" redirect="true"/>
+  <file name="titoli.html" crc="4056233991" seo="true" mt="1793142897416" redirect="true"/>
 </manifest>
